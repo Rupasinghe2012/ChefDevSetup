@@ -7,6 +7,7 @@ packages:
 runcmd:
 - curl -s https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk
 - su centos -c  'echo "eval $(chef shell-init bash)" >> ~/.bash_profile'
+- su centos -c  'echo "export EDITOR=vim" >> ~/.bash_profile'
 - source ~/.bash_profile
 - sudo yum install -y git yum-utils
 - sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
