@@ -19,6 +19,6 @@
 
 ## Destroy
 
-#### ./terraform destory -var-file config.tfvars
+#### ./terraform destroy -var-file config.tfvars
 
 you will receive an email to your defined email address once bootstapping completed (Automation takes around 10 mins to complete on a t2.micro server.)
